@@ -1,0 +1,10 @@
+.active {
+    background-image: url('https://imgur.com/eu97Vmu.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    color: #000000;
+}

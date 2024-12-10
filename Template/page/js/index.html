@@ -1,0 +1,21 @@
+{% extends 'layouts.html' %}
+{% block content %}
+
+    <font color="#f0f8ff">
+    <h1><center>{{ name }}</center></h1>
+    <h3><center>By {{ Owner }}</center></h3>
+    <h1><center>♬ ♩ ~</center></h1>
+    <h3>List</h3>
+    {% for tag in tags %}
+    <p><li><tt>{{ tag }}</tt></li></p>
+    {% endfor %}
+    <br>
+        <h3>Music Rating</h3>
+        {% if rating > 2 %}
+        <h4>Favorite</h4>
+        {% else %}
+        <h3>Simple</h3>
+        {% endif %}
+    </br>
+    </font>
+{% endblock %}
